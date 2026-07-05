@@ -1,11 +1,15 @@
 import java.util.*;
-public class Hash1{
-    public static void main(String() args)
-    {
+
+public class HashMapBasics{
+    
+    public static void main(String() args){
+        
         Hashmap<String,Integer>map=new Hashmap<>();
+        
         map.put("English",85);
         map.put("Maths",90);
         map.put("Science",95);
+        
         System.out.println(map.containsKey("English"));
         System.out.println(map.containsValue(90));
         System.out.println(map.KeySet());
@@ -15,8 +19,11 @@ public class Hash1{
 
         }
 }
+
     for(map.Entry<String,Integer>entry:map.entrySet()){
+        
         if(enrty.getValue()>=90){
+            
             System.out.println(entry.getKey()+" ");
         }
-    }
+}

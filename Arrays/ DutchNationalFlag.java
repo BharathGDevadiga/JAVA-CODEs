@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class first {
+public class  DutchNationalFlag{
     
     public static void sort(int[] arr){
         
@@ -35,16 +35,25 @@ public class first {
         }
         
         for(int i=0; i<arr.length; i++){
+            
             System.out.print(arr[i]+" ");
+            
         }
     }
+    
     public static void main(String[] args) {
+        
             Scanner sc=new Scanner(System.in);
+        
             int size= sc.nextInt();
             int[] arr=new int[size];
+        
             for(int j=0; j<size; j++){
+                
                 arr[j]=sc.nextInt();
+                
             }
+        
             sort(arr);
     } 
 }

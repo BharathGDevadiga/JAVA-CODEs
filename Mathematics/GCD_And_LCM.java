@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Gcdandlcd{
+public class GCD_And_LCM{
     
     public static int findGcd(int a,int b){
         
@@ -24,3 +24,10 @@ public class Gcdandlcd{
         
     }
 }
+
+/*
+Expected Output:
+-----------------
+the GCD:6 the lCm:36
+-----------------
+*/

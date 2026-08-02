@@ -36,3 +36,11 @@ public class FindDuplicatesUsingHashMap{
         
     }
 }
+
+/*
+Expected Output:
+-----------------
+1 
+2 
+-----------------
+*/

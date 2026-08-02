@@ -97,3 +97,10 @@ public class BinaryTreeTraversals {
         tree.postOrder(tree.root);
     }
 }
+
+/*
+Expected Output:
+-----------------
+InOrder: 4 2 5 1 6 3 7  PreOrder: 1 2 4 5 3 6 7  PostOrder: 4 5 2 6 7 3 1 
+-----------------
+*/

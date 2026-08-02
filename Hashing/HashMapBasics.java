@@ -21,3 +21,10 @@ public class HashMapBasics{
     }
 }
 }
+
+/*
+Expected Output:
+-----------------
+true true [English, Maths, Science] [85, 90, 95] 3 false Maths  Science 
+-----------------
+*/

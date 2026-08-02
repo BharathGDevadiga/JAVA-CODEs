@@ -22,3 +22,10 @@ public class GenerateBinaryStrings{
             
         }
 }
+
+/*
+Expected Output:
+-----------------
+000 001 010 011 100 101 110 111 
+-----------------
+*/

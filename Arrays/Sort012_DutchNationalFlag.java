@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class  DutchNationalFlag{
+public class Sort012_DutchNationalFlag{
     
     public static void sort(int[] arr){
         
@@ -57,3 +57,10 @@ public class  DutchNationalFlag{
             sort(arr);
     } 
 }
+
+/*
+Expected Output:
+-----------------
+0 0 1 1 2 2 
+-----------------
+*/

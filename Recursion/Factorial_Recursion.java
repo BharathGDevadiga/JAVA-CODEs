@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FactorialRecursion{
+public class Factorial_Recursion{
     
     public static int fact(int n){
         
@@ -19,3 +19,10 @@ public class FactorialRecursion{
         
     }
 }
+
+/*
+Expected Output:
+-----------------
+120
+-----------------
+*/

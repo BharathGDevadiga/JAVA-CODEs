@@ -5,11 +5,10 @@ class BinaryTreeTraversals{
     int data;
     Node left, right;
     
-    Node(int d) {
+    Node (int d) {
         
         data = d;
         left = right = null;
-        
     }
 }
 
@@ -21,7 +20,6 @@ class BinaryTrees {
     BinaryTrees() {
         
         root = null;
-        
     }
 
     void insert(int d) {
@@ -31,7 +29,6 @@ class BinaryTrees {
             
             root = new_node;
             return;
-            
         }
         
         Queue<Node> q = new LinkedList<>();
@@ -46,10 +43,10 @@ class BinaryTrees {
                 temp.left = new_node;
                 return;
                 
-            } else {
+            } else 
+            {
                 
                 q.add(temp.left);
-                
             }
 
             if (temp.right == null) {
@@ -57,7 +54,8 @@ class BinaryTrees {
                 temp.right = new_node;
                 return;
                 
-            } else {
+            } else 
+            {
                 
                 q.add(temp.right);
                 
